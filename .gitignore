@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+
+# Output
+*.csv
+
+# Jupyter Checkpoints (if using)
+.ipynb_checkpoints/
