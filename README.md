@@ -1,5 +1,12 @@
 # Attendance Project utilising Facial Recognition with OpenCV
 
+It is built using:
+
+- `face_recognition` (based on dlib + deep learning)
+- `OpenCV` for video processing and display
+- `NumPy` for efficient face encoding handling
+- Python 3.11+ for compatibility
+
 ## Features
 
 - Real-time face detection and recognition
