@@ -1,22 +1,42 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.egg-info/
-*.log
+*$py.class
 
-# Virtual Environment
+# C extensions
+*.so
+
+# Virtual environments
 .venv/
-env/
 venv/
+ENV/
+env/
 
 # PyCharm
 .idea/
 
-# OS Files
+# VS Code (if ever used)
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mac system files
 .DS_Store
 
-# Output
-*.csv
+# Log files
+*.log
 
-# Jupyter Checkpoints (if using)
-.ipynb_checkpoints/
+# CSV and Excel outputs
+*.csv
+*.xlsx
+
+# Face recognition model files (optional, if large)
+*.dat
+
+# Compiled Cython files
+*.c
+*.cpp
+
+# Testing cache
+.pytest_cache/
