@@ -1,7 +1,5 @@
 # Attendance Project utilising Facial Recognition with OpenCV
 
-A real-time facial recognition system that detects faces using a webcam and records attendance in an Excel sheet with accuracy.
-
 ## Features
 
 - Real-time face detection and recognition
