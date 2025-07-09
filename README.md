@@ -14,6 +14,9 @@ It is built using:
 - High accuracy facial recognition using deep learning
 - Webcam integration for live processing
 
+![How a basic pipeline for detecting faces might work](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*WxBM1lB5WzDjrDXYfi9gtw.gif)
+
+
 ## How It Works
 
 The system uses a 4-step pipeline:
@@ -21,7 +24,9 @@ The system uses a 4-step pipeline:
 1. **Face Detection**: Uses HOG (Histogram of Oriented Gradients) to locate faces in images
 2. **Face Alignment**: Identifies 68 facial landmarks to normalize face pose and orientation
 3. **Face Encoding**: Generates 128 unique measurements for each face using a pre-trained neural network
-4. **Face Recognition**: Compares face encodings to identify known individuals
+![Test Measurements of ourtest image](![image](https://github.com/user-attachments/assets/ae25bce4-1353-4374-a3f1-538a81f6b8df)
+)
+5. **Face Recognition**: Compares face encodings to identify known individuals
 
 ## Requirements
 
